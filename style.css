@@ -1,0 +1,55 @@
+.jumbotron {
+    background-color:lightgrey;
+    padding:30px;
+    margin:;
+}
+.carousel {
+    
+    height:500px;
+}
+.row {
+    padding:30px;
+}
+
+h1 {
+    color:black;
+    font-style:arial;
+}
+
+/*This styles all of the text within p tags */
+p {
+    color:black;
+    font-style:arial;
+    font-size:20px;
+}
+.hide {
+    visibility:hidden;
+}
+#see:hover + .hide {
+    visibility:visible;
+}
+
+
+
+@keyframes hue {
+    from {
+        filter:hue-rotate(0deg);
+    }
+    to {
+        filter:hue-rotate(90deg);
+    }
+}
+.normal-image:hover {
+    animation:hue 3s backwards;
+}
+.normal-image {
+    width:300px;
+    height:400px;
+    border: 5px solid #FFFDD0;
+    margin:10px;
+}
+
+/*This styles the circular image to change when it is hovered over*/
+
+
+/*This styles the iframes in the webpages*/
